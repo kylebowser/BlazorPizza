@@ -8,6 +8,7 @@ namespace BlazingPizza
         public readonly static TimeSpan PreparationDuration = TimeSpan.FromSeconds(10);
         public readonly static TimeSpan DeliveryDuration = TimeSpan.FromMinutes(1); // Unrealistic, but more interesting to watch
 
+
         public Order Order { get; set; }
 
         public string StatusText { get; set; }
